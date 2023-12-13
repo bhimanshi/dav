@@ -1,0 +1,10 @@
+# Compute the mean, standard deviation, and variance of ARR1 along the second axis.
+ARR1 = np.random.rand(3, 4)
+mean_arr1 = np.mean(ARR1, axis=1)
+std_arr1 = np.std(ARR1, axis=1)
+var_arr1 = np.var(ARR1, axis=1)
+print("a. ARR1:")
+print(ARR1)
+print("\nMean along the second axis:", mean_arr1)
+print("Standard Deviation along the second axis:", std_arr1)
+print("Variance along the second axis:", var_arr1)
